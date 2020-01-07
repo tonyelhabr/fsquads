@@ -30,13 +30,13 @@ hexSticker::sticker(
   p_y = 1.0,
   p_color = 'white',
   # p_family = 'sans',
-  p_size = 40,
+  p_size = 30,
   h_size = 1.5,
   h_color = 'white',
   h_fill = '#0645AD'
 )
-logo <- magick::image_read(path_logo)
-magick::image_write(magick::image_scale(logo, '120'), path = path_logo)
+# logo <- magick::image_read(path_logo)
+# magick::image_write(magick::image_scale(logo, '120'), path = path_logo)
 # badgecreatr::badgeplacer(status = 'wip', githubaccount = 'tonyelhabr', githubrepo = 'fsquads')
 ```
 
@@ -56,12 +56,18 @@ Here is a list of all functions in the package.
 
 ```{r echo = FALSE}
 library('fsquads')
-ls('package:fsquads')
+fs <- ls('package:fsquads')
+fs_show <- setdiff(fs, c('%>%', 'enquo', 'expr'))
+fs_show
 ```
 
-### Syntax
+## TODO
 
-...
+[ ] Remove dependencies.
+
+[ ] Re-consider the need for memoization.
+
+[ ] Make better documentation.
 
 
 ## Examples
