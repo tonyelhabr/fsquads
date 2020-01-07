@@ -35,8 +35,8 @@ hexSticker::sticker(
   h_color = 'white',
   h_fill = '#0645AD'
 )
-# logo <- magick::image_read(path_logo)
-# magick::image_write(magick::image_scale(logo, '120'), path = path_logo)
+logo <- magick::image_read(path_logo)
+magick::image_write(magick::image_scale(logo, '120'), path = path_logo)
 # badgecreatr::badgeplacer(status = 'wip', githubaccount = 'tonyelhabr', githubrepo = 'fsquads')
 ```
 
