@@ -59,15 +59,6 @@ library('fsquads')
 ls('package:fsquads')
 ```
 
-### Inspiration
-
-https://dusty-turner.netlify.com/post/mathlete-fantasy-football-analysis/
-
-
-```{r include = FALSE, eval = FALSE}
-# print(covr::package_coverage())
-```
-
 ### Syntax
 
 ...

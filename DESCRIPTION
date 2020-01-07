@@ -1,9 +1,9 @@
 Package: fsquads
-Title: Data retrieval from https://http://www.footballsquads.co.uk/tou.htm
+Title: Data retrieval from https://http://www.footballsquads.co.uk
 Version: 0.0.0.9000
 Author: Tony ElHabr <anthonyelhabr@gmail.com>
 Authors@R: person('Tony', 'ElHabr', email = 'anthonyelhabr@gmail.com', role = c('aut', 'cre'))
-Description: An R package for retrieving data from http://www.footballsquads.co.uk/tou.htm.
+Description: An R package for retrieving data from http://www.footballsquads.co.uk.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
