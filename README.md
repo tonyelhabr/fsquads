@@ -3,21 +3,22 @@
 has not yet been a stable, usable release suitable for the
 public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 
-# fsquads <img src='man/figures/logo.png' align='right'/>
+# fsquads <img src="man/figures/logo.png" align="right" height="138.5"/>
 
 ## Introduction
 
-This package contains functions that I use often in projects.
+This is an R package for retrieving data from
+<http://www.footballsquads.co.uk>.
 
 ### Installation
 
 `devtools::install_github('tonyelhabr/fsquads')`.
 
-## Notes
+## Quick Reference
 
-Here is a list of all functions in the package.
-
-    #> [1] "get_league_teams_meta" "get_leagues_meta"      "get_team_players"
+    #> get_league_teams_meta
+    #> get_leagues_meta
+    #> get_team_players
 
 ## TODO
 
@@ -26,6 +27,9 @@ Here is a list of all functions in the package.
 \[ \] Re-consider the need for memoization.
 
 \[ \] Make better documentation.
+
+\[ \] Add functions for retrieving national competition data (from
+<http://www.footballsquads.co.uk./national.htm>).
 
 ## Examples
 

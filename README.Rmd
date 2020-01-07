@@ -35,30 +35,28 @@ hexSticker::sticker(
   h_color = 'white',
   h_fill = '#0645AD'
 )
-logo <- magick::image_read(path_logo)
-magick::image_write(magick::image_scale(logo, '120'), path = path_logo)
+# logo <- magick::image_read(path_logo)
+# magick::image_write(magick::image_scale(logo, '120'), path = path_logo)
 # badgecreatr::badgeplacer(status = 'wip', githubaccount = 'tonyelhabr', githubrepo = 'fsquads')
 ```
 
-# fsquads <img src='man/figures/logo.png' align='right'/>
+# fsquads <img src="man/figures/logo.png" align="right" height="138.5"/>
 
 ##  Introduction
 
-This package contains functions that I use often in projects.
+This is an R package for retrieving data from http://www.footballsquads.co.uk.
 
 ### Installation
 
 `devtools::install_github('tonyelhabr/fsquads')`.
 
-## Notes
+## Quick Reference
 
-Here is a list of all functions in the package.
-
-```{r echo = FALSE}
+```{r echo = FALSE, width = 1}
 library('fsquads')
 fs <- ls('package:fsquads')
 fs_show <- setdiff(fs, c('%>%', 'enquo', 'expr'))
-fs_show
+writeLines(fs_show)
 ```
 
 ## TODO
@@ -68,6 +66,8 @@ fs_show
 [ ] Re-consider the need for memoization.
 
 [ ] Make better documentation.
+
+[ ] Add functions for retrieving national competition data (from http://www.footballsquads.co.uk./national.htm).
 
 
 ## Examples
